@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
     </dependencies>
     <scenes>
-        <!--First View Controller - List-->
+        <!--First View Controller - Shopping List-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Shopping_List" customModuleProvider="target" sceneMemberID="viewController">
@@ -24,11 +24,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="List" image="first" id="acW-dT-cKf"/>
+                    <navigationItem key="navigationItem" title="Shopping List" id="QV7-Yo-Dpl"/>
+                    <connections>
+                        <outlet property="tblTasks" destination="Lwk-Kr-fuW" id="0bw-M3-JOG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2028" y="799"/>
+            <point key="canvasLocation" x="2560" y="799"/>
         </scene>
         <!--Second View Controller - Add New-->
         <scene sceneID="wg7-f3-ORb">
@@ -60,11 +63,17 @@
                                 <state key="normal" title="Add to Shopping List">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonAddd_Click:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="hyV-Wr-s0J"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Add New" image="second" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="textTask" destination="g6T-4L-wDT" id="Bbd-1p-REE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -81,13 +90,32 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="H9S-z1-IjG" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1522" y="1141.9166666666667"/>
+        </scene>
+        <!--Navigation Controller - List-->
+        <scene sceneID="yQq-um-nXs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="H9S-z1-IjG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="List" image="first" id="acW-dT-cKf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eoG-ON-zd9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="Ksp-eX-BYG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kF8-hk-baY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2028" y="799"/>
         </scene>
     </scenes>
     <resources>

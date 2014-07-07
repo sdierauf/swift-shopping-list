@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CE057F6196A5208009A3179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE057F5196A5208009A3179 /* AppDelegate.swift */; };
+		6CE057F9196A5208009A3179 /* Better_Shopping_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CE057F7196A5208009A3179 /* Better_Shopping_List.xcdatamodeld */; };
+		6CE057FB196A5208009A3179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE057FA196A5208009A3179 /* ViewController.swift */; };
+		6CE057FE196A5208009A3179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CE057FC196A5208009A3179 /* Main.storyboard */; };
+		6CE05800196A5208009A3179 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE057FF196A5208009A3179 /* Images.xcassets */; };
+		6CE0580C196A5208009A3179 /* Better_Shopping_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE0580B196A5208009A3179 /* Better_Shopping_ListTests.swift */; };
+		6CE05816196A5269009A3179 /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE05815196A5269009A3179 /* ShoppingList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CE05806196A5208009A3179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CE057E8196A5208009A3179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CE057EF196A5208009A3179;
+			remoteInfo = "Better Shopping List";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CE057F0196A5208009A3179 /* Better Shopping List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Better Shopping List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE057F4196A5208009A3179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE057F5196A5208009A3179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CE057F8196A5208009A3179 /* Better_Shopping_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Better_Shopping_List.xcdatamodel; sourceTree = "<group>"; };
+		6CE057FA196A5208009A3179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CE057FD196A5208009A3179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CE057FF196A5208009A3179 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6CE05805196A5208009A3179 /* Better Shopping ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Better Shopping ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE0580A196A5208009A3179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE0580B196A5208009A3179 /* Better_Shopping_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Better_Shopping_ListTests.swift; sourceTree = "<group>"; };
+		6CE05815196A5269009A3179 /* ShoppingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CE057ED196A5208009A3179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE05802196A5208009A3179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CE057E7196A5208009A3179 = {
+			isa = PBXGroup;
+			children = (
+				6CE057F2196A5208009A3179 /* Better Shopping List */,
+				6CE05808196A5208009A3179 /* Better Shopping ListTests */,
+				6CE057F1196A5208009A3179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CE057F1196A5208009A3179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CE057F0196A5208009A3179 /* Better Shopping List.app */,
+				6CE05805196A5208009A3179 /* Better Shopping ListTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CE057F2196A5208009A3179 /* Better Shopping List */ = {
+			isa = PBXGroup;
+			children = (
+				6CE057F5196A5208009A3179 /* AppDelegate.swift */,
+				6CE057FA196A5208009A3179 /* ViewController.swift */,
+				6CE057FC196A5208009A3179 /* Main.storyboard */,
+				6CE057FF196A5208009A3179 /* Images.xcassets */,
+				6CE057F7196A5208009A3179 /* Better_Shopping_List.xcdatamodeld */,
+				6CE057F3196A5208009A3179 /* Supporting Files */,
+				6CE05815196A5269009A3179 /* ShoppingList.swift */,
+			);
+			path = "Better Shopping List";
+			sourceTree = "<group>";
+		};
+		6CE057F3196A5208009A3179 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CE057F4196A5208009A3179 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CE05808196A5208009A3179 /* Better Shopping ListTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CE0580B196A5208009A3179 /* Better_Shopping_ListTests.swift */,
+				6CE05809196A5208009A3179 /* Supporting Files */,
+			);
+			path = "Better Shopping ListTests";
+			sourceTree = "<group>";
+		};
+		6CE05809196A5208009A3179 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CE0580A196A5208009A3179 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CE057EF196A5208009A3179 /* Better Shopping List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE0580F196A5208009A3179 /* Build configuration list for PBXNativeTarget "Better Shopping List" */;
+			buildPhases = (
+				6CE057EC196A5208009A3179 /* Sources */,
+				6CE057ED196A5208009A3179 /* Frameworks */,
+				6CE057EE196A5208009A3179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Better Shopping List";
+			productName = "Better Shopping List";
+			productReference = 6CE057F0196A5208009A3179 /* Better Shopping List.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CE05804196A5208009A3179 /* Better Shopping ListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE05812196A5208009A3179 /* Build configuration list for PBXNativeTarget "Better Shopping ListTests" */;
+			buildPhases = (
+				6CE05801196A5208009A3179 /* Sources */,
+				6CE05802196A5208009A3179 /* Frameworks */,
+				6CE05803196A5208009A3179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CE05807196A5208009A3179 /* PBXTargetDependency */,
+			);
+			name = "Better Shopping ListTests";
+			productName = "Better Shopping ListTests";
+			productReference = 6CE05805196A5208009A3179 /* Better Shopping ListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CE057E8196A5208009A3179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = sdierauf;
+				TargetAttributes = {
+					6CE057EF196A5208009A3179 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					6CE05804196A5208009A3179 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 6CE057EF196A5208009A3179;
+					};
+				};
+			};
+			buildConfigurationList = 6CE057EB196A5208009A3179 /* Build configuration list for PBXProject "Better Shopping List" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CE057E7196A5208009A3179;
+			productRefGroup = 6CE057F1196A5208009A3179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CE057EF196A5208009A3179 /* Better Shopping List */,
+				6CE05804196A5208009A3179 /* Better Shopping ListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CE057EE196A5208009A3179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE057FE196A5208009A3179 /* Main.storyboard in Resources */,
+				6CE05800196A5208009A3179 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE05803196A5208009A3179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CE057EC196A5208009A3179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE057FB196A5208009A3179 /* ViewController.swift in Sources */,
+				6CE05816196A5269009A3179 /* ShoppingList.swift in Sources */,
+				6CE057F6196A5208009A3179 /* AppDelegate.swift in Sources */,
+				6CE057F9196A5208009A3179 /* Better_Shopping_List.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE05801196A5208009A3179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE0580C196A5208009A3179 /* Better_Shopping_ListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CE05807196A5208009A3179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CE057EF196A5208009A3179 /* Better Shopping List */;
+			targetProxy = 6CE05806196A5208009A3179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CE057FC196A5208009A3179 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CE057FD196A5208009A3179 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CE0580D196A5208009A3179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CE0580E196A5208009A3179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CE05810196A5208009A3179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Better Shopping List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CE05811196A5208009A3179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Better Shopping List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6CE05813196A5208009A3179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Better Shopping List.app/Better Shopping List";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Better Shopping ListTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		6CE05814196A5208009A3179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Better Shopping List.app/Better Shopping List";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Better Shopping ListTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CE057EB196A5208009A3179 /* Build configuration list for PBXProject "Better Shopping List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE0580D196A5208009A3179 /* Debug */,
+				6CE0580E196A5208009A3179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE0580F196A5208009A3179 /* Build configuration list for PBXNativeTarget "Better Shopping List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE05810196A5208009A3179 /* Debug */,
+				6CE05811196A5208009A3179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CE05812196A5208009A3179 /* Build configuration list for PBXNativeTarget "Better Shopping ListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE05813196A5208009A3179 /* Debug */,
+				6CE05814196A5208009A3179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6CE057F7196A5208009A3179 /* Better_Shopping_List.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6CE057F8196A5208009A3179 /* Better_Shopping_List.xcdatamodel */,
+			);
+			currentVersion = 6CE057F8196A5208009A3179 /* Better_Shopping_List.xcdatamodel */;
+			path = Better_Shopping_List.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6CE057E8196A5208009A3179 /* Project object */;
+}
